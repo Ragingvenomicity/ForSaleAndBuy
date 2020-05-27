@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="don_t_have_account_sign_up">Don\'t have account? Sign Up</string>
+    <string name="login">Login</string>
+    <string name="my_profile">Profile</string>
+    <string name="sell">Sell</string>
+    <string name="logout">Logout</string>
+    <string name="about">About</string>
+    <string name="share">share</string>
+    <string name="juggler">Welcome to ForSaleAndBuy</string>"
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close navigation Drawer</string>
+    <string name="coming_soon">Coming Soon..</string>
+    <string name="home">Home</string>
+    <string name="product_name">Product name</string>
+    <string name="feedback">Feedback</string>
+    <string name="Welcome_to_Juggler">Welcome to Juggler</string>
+    <string name="intro">A platform for students to buy and sell old goods to other students within their college.</string>
+    <string name="our_team">Our Team</string>
+    <string name="a">"Name    :    Aneesh Deshmukh          \nReg       :    17BEC0655 \nBranch  :    ECE \n"</string>
+    <string name="c">"Name    :    Muskan Chanana \nReg       :    17BEC0659 \nBranch  :    ECE"</string>
+    <string name="k">"Name    :    Anish Ganguly   \nReg       :    17BEC0792 \nBranch  :    ECE"</string>
+    <string name="sai">"Name    :    Sainesh Nakra   \nReg       :    17BEC0421 \nBranch  :    ECE"</string>
+    <string name="forgot_pass">Forgot password? Reset</string>
+    <string name="go_back">Go Back</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="thank_you_for_purchasing">Thank You For Purchasing</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="todo">TODO</string>
+</resources>

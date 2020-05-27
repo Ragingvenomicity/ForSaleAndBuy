@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".SellFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F0F71B"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/purpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:text="Purpose"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/purpose_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/purpose"
+            android:text="@string/intro"
+            android:textSize="20dp"
+            android:textColor="@color/blackish_blue"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/team"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/purpose_text"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="5dp"
+            android:text="@string/our_team"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/akshat_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/team"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/blackish_blue"
+            android:text="@string/k"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/akshat_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/team"
+            android:layout_marginStart="45dp"
+            android:layout_toEndOf="@+id/akshat_text"
+            android:background="@drawable/p1" />
+
+        <TextView
+            android:id="@+id/akshat1_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/akshat_text"
+            android:layout_marginTop="56dp"
+            android:text="@string/c"
+            android:textColor="@color/blackish_blue"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/akshat1_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/akshat_text"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="42dp"
+            android:layout_toEndOf="@+id/akshat1_text"
+            android:background="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/akshat2_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/akshat1_text"
+            android:layout_marginTop="56dp"
+            android:text="@string/a"
+            android:textColor="@color/blackish_blue"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/akshat2_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/akshat1_text"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="42dp"
+            android:layout_toEndOf="@+id/akshat1_text"
+            android:background="@drawable/p4" />
+
+        <TextView
+            android:id="@+id/akshat3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/akshat2_text"
+            android:layout_marginTop="56dp"
+            android:text="@string/sai"
+            android:textColor="@color/blackish_blue"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/akshat3_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/akshat2_text"
+            android:layout_marginStart="41dp"
+            android:layout_marginTop="42dp"
+            android:layout_toEndOf="@+id/akshat1_text"
+            android:background="@drawable/p5" />
+    </RelativeLayout>
+</ScrollView>

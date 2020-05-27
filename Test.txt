@@ -1,0 +1,5 @@
+changes:
+Added a reference to the Buy button
+Added onClick method for the buy button
+sendEmail function are now parameterized to allow distinction between non-buy and buy calls
+Added Thank you fragment
